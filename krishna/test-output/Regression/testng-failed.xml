@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Regression]" parallel="tests">
+  <parameter name="browser" value="FF"/>
+  <test name="Firefox (failed)" parallel="tests">
+    <parameter name="browser" value="FF"/>
+    <classes>
+      <class name="selenium.SwitchWindow">
+        <methods>
+          <include name="SwitchWindow"/>
+          <include name="browserLaunch"/>
+        </methods>
+      </class> <!-- selenium.SwitchWindow -->
+    </classes>
+  </test> <!-- Firefox (failed) -->
+</suite> <!-- Failed suite [Regression] -->

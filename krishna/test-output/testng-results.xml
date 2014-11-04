@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="17346" started-at="2014-11-03T11:37:08Z" finished-at="2014-11-03T11:37:25Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="17346" started-at="2014-11-03T11:37:08Z" finished-at="2014-11-03T11:37:25Z">
+      <class name="selenium.Macysprofile">
+        <test-method status="PASS" signature="browser()[pri:0, instance:selenium.Macysprofile@1055e55f]" name="browser" is-config="true" duration-ms="11256" started-at="2014-11-03T17:07:08Z" finished-at="2014-11-03T17:07:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="main()[pri:0, instance:selenium.Macysprofile@1055e55f]" name="main" duration-ms="6071" started-at="2014-11-03T17:07:19Z" finished-at="2014-11-03T17:07:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- selenium.Macysprofile -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

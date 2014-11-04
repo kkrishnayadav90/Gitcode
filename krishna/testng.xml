@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name= "Regression"  parallel= "tests" >
+	<test name= "Firefox ">
+	  <parameter name="browser"  value = "FF"/>
+	<classes>
+	<class name="selenium.SwitchWindow" />
+	</classes>
+	</test>
+</suite>
